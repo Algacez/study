@@ -92,12 +92,6 @@ const config = {
             position: 'left',
             label: 'Math',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'codeSidebar',
-            position: 'left',
-            label: 'Code',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/algacez',
@@ -109,24 +103,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Math',
-                to: '/docs/math',
-              },
-            ],
-          },
-          {
-            title: 'Code',
-            items: [
-              {
-                label: 'Code',
-                to: '/docs/code',
-              },
-            ],
-          }, 
           {
             title: 'More',
             items: [
