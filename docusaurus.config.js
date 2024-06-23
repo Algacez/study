@@ -92,6 +92,18 @@ const config = {
             position: 'left',
             label: 'Math',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'codeSidebar',
+            position: 'left',
+            label: 'Code',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'chemistrySidebar',
+            position: 'left',
+            label: 'Chemistry',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/algacez',
